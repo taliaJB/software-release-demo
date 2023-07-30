@@ -54,3 +54,13 @@ git push origin <branch-name>
 ### Stage 4: Install a private runner
 
 - Go to your forked repo on Github and go to Settings -> Actions -> Runners
+- Follow the instructions to install a private runner on your local machine
+- Run the runner(Not in Service mode)
+
+### Stage 5: Create a pull request to the original repo
+
+- Wait for the pipeline to complete - test your change on your machine
+
+### Stage 6: Merge your pull request
+
+- wait for the pipeline to complete - test your change on our Production

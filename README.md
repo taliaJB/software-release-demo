@@ -42,7 +42,14 @@ curl http://<your-ip>:3000/<your-route>
 
 - Run your docker image
 
-### Stage 3: Pushing your code to Github
+### Stage 3: Install a private runner
+
+- Go to your forked repo on Github and go to Settings -> Actions -> Runners
+- Follow the instructions to install a private runner on your local machine
+- Run the runner(Not in Service mode)
+
+
+### Stage 4: Pushing your code to Github
 
 - Push your code to your forked repo on Github
   - for this you will need create a token and sign in from your terminal
@@ -50,12 +57,6 @@ curl http://<your-ip>:3000/<your-route>
 ```bash
 git push origin <branch-name>
 ```
-
-### Stage 4: Install a private runner
-
-- Go to your forked repo on Github and go to Settings -> Actions -> Runners
-- Follow the instructions to install a private runner on your local machine
-- Run the runner(Not in Service mode)
 
 ### Stage 5: Create a pull request to the original repo
 

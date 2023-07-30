@@ -1,0 +1,26 @@
+name: Build and Run Docker Image
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build Docker image
+        run: docker build -t our-server:latest .
+
+      - name: Run Docker image
+        run: docker run -d -p 3000:3000 our-server:latest
+
+      - name: Show running Docker containers
+        run: docker ps

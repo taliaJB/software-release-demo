@@ -20,7 +20,7 @@ jobs:
         run: docker build -t our-server:latest .
 
       - name: Run Docker image
-        run: docker run --name prod-server-rm -d -p 3000:3000 our-server:latest
+        run: docker run -rm --name prod-server -d -p 3000:3000 our-server:latest
 
       - name: Show running Docker containers
         run: docker ps

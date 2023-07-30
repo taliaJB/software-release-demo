@@ -1,0 +1,20 @@
+{
+  "name": "software-release-demo",
+  "version": "1.0.0",
+  "description": "```bash git clone https://github.com/assafushy/software-release-demo.git ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assafushy/software-release-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/assafushy/software-release-demo/issues"
+  },
+  "homepage": "https://github.com/assafushy/software-release-demo#readme"
+}

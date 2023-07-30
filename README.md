@@ -7,7 +7,7 @@
 - Clone the repo to your local machine
 
 ```bash
-git clone https://github.com/assafushy/software-release-demo.git
+git clone <fork-adress>
 ```
 
 - install dependencies

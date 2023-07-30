@@ -19,6 +19,9 @@ jobs:
       - name: Build Docker image
         run: docker build -t our-server:latest .
 
+      - name: Run Docker rm
+        run: docker rm -f prod-server
+
       - name: Run Docker image
         run: docker run --name prod-server --rm -d -p 3000:3000 our-server:latest
 

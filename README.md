@@ -13,7 +13,7 @@ git clone <fork-adress>
 - install dependencies
 
 ```bash
-npm i install
+npm install
 ```
 
 ## Instructions
